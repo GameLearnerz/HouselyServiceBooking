@@ -67,6 +67,18 @@ App.css
 
 ---
 
+## Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Booking Modal
+![Modal](screenshots/modal.png)
+
+### Booking List
+![Bookings](screenshots/bookings.png)
+
+---
 
 # React + Vite
 
