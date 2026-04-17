@@ -1,7 +1,7 @@
 # Service Booking Platform
 
 ## Description
-A React-based web application that allows users to book services such as cleaning, tutoring, and plumbing. The application provides an interactive interface where users can select a service, enter their name, choose a date, and confirm their booking through a modal form.
+A React-based web application that allows users to book services such as cleaning, painting, and plumbing. The application provides an interactive interface where users can select a service, enter their name, choose a date, and confirm their booking through a modal form.
 
 The system prevents duplicate bookings and allows users to manage their bookings efficiently.
 
