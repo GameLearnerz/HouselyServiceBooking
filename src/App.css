@@ -1,0 +1,181 @@
+/* Reset + Base */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+/* Main container */
+.app {
+  max-width: 100px;     
+  margin: 20px auto; 
+  border-radius: 0;   
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding: 15px 0px;    
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #0f172a; 
+  letter-spacing: 0.5px;
+}
+
+/* Card  */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 18px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+  background: #f9fafb;
+  border: 1px solid #e2e8f0;
+}
+
+button {
+  background: #0f172a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #1e293b;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #ffffff;   
+  font-size: 14px;
+  outline: none;
+  transition: all 0.2s ease;
+  color: #0f172a; 
+}
+
+input::placeholder {
+  color: #94a3b8;           
+}
+
+input:focus {
+  border-color: #0f172a;
+  box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.1);
+}
+
+/* Form box */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Booking item */
+.booking-item {
+  background: #ffffff;
+  padding: 14px;
+  margin-top: 12px;
+  border-radius: 10px;
+  border-left: 4px solid #0f172a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Message */
+.message {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #16a34a;
+}
+/* Overlay  */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal box */
+.modal {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+  position: relative;
+  animation: fadeIn 0.2s ease;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 7px;        
+  right: 12px;
+
+  width: 32px;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff; 
+  color: #0f172a;
+
+  border: none;
+  border-radius: 50%;  
+
+  font-size: 16px;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+.close-btn:hover {
+  background: #e2e8f0; 
+ 
+  transform: scale(1.0);
+}
+
+/* Smooth appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
